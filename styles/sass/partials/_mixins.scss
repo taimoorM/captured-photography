@@ -1,0 +1,5 @@
+@mixin primaryHeading($fontSize) {
+  font-family: $primaryFont;
+  font-weight: 700;
+  font-size: $fontSize;
+}
