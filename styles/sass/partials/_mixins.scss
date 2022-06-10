@@ -1,8 +1,9 @@
-@mixin primaryHeading($fontSize) {
+@mixin heading($fontSize) {
   font-family: $primaryFont;
   font-weight: 700;
   font-size: $fontSize;
   line-height: 26px;
+  text-transform: uppercase;
 }
 
 @mixin primaryButton() {

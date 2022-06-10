@@ -27,6 +27,20 @@ section {
   padding: 100px 0;
 }
 
+a {
+  color: $primaryTextColour;
+  text-decoration: none;
+}
+
+h1,
 h2 {
-  @include primaryHeading(29px);
+  font-family: $primaryFont;
+}
+
+.primaryHeading {
+  @include heading(32px);
+}
+
+.secondaryHeading {
+  @include heading(29px);
 }
