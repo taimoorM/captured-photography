@@ -2,4 +2,11 @@
   font-family: $primaryFont;
   font-weight: 700;
   font-size: $fontSize;
+  line-height: 26px;
+}
+
+@mixin primaryButton() {
+  font-family: $primaryFont;
+  font-weight: 700;
+  font-size: $primaryFontSize;
 }
