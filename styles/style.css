@@ -448,3 +448,38 @@ header .socialIcons li i {
 .about .wrapper a {
   margin-top: 5px;
 }
+
+.blog {
+  padding: 0;
+}
+.blog .wrapper {
+  max-width: none;
+  width: 100%;
+}
+.blog .wrapper .column {
+  width: 50%;
+  padding: 80px 0;
+}
+.blog .wrapper .rowOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.blog .wrapper .rowOne .leftColumn {
+  background-image: url(../assets/images/asset-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.blog .wrapper .rowOne .rightColumn {
+  background-color: #f6f6f6;
+}
+.blog .wrapper .rowTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.blog .wrapper .rowTwo .rightColumn {
+  background-image: url(../assets/images/asset-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
