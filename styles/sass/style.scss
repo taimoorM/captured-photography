@@ -2,4 +2,8 @@
 @import "./partials/variables";
 @import "./partials/mixins";
 @import "./partials/base";
-@import "./partials/header";
+
+//Sections
+@import "./partials/sections/header";
+@import "./partials/sections/about";
+@import "./partials/sections/blog";
