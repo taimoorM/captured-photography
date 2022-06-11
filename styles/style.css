@@ -459,6 +459,19 @@ header .socialIcons li i {
 .blog .wrapper .column {
   width: 50%;
   padding: 80px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.blog .wrapper p {
+  max-width: 300px;
 }
 .blog .wrapper .rowOne {
   display: -webkit-box;
@@ -472,11 +485,15 @@ header .socialIcons li i {
 }
 .blog .wrapper .rowOne .rightColumn {
   background-color: #f6f6f6;
+  padding-right: 50px;
 }
 .blog .wrapper .rowTwo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.blog .wrapper .rowTwo .leftColumn {
+  padding-left: 50px;
 }
 .blog .wrapper .rowTwo .rightColumn {
   background-image: url(../assets/images/asset-3.jpg);
