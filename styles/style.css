@@ -573,3 +573,10 @@ header .socialIcons li i {
 .gallery .imgContainer:not(:last-child) {
   margin-right: 40px;
 }
+
+.footer .wrapper {
+  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
