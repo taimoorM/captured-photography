@@ -406,7 +406,6 @@ header .headingContainer h1 {
   margin: 40px 0 0 0;
 }
 header .socialIcons {
-  color: #215a6d;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -421,6 +420,12 @@ header .socialIcons {
 }
 header .socialIcons li:not(:last-child) {
   margin-bottom: 10px;
+}
+header .socialIcons li a {
+  color: #215a6d;
+}
+header .socialIcons li a:hover {
+  color: #8dd7e9;
 }
 header .socialIcons li i {
   font-size: 1.1rem;
@@ -499,4 +504,18 @@ header .socialIcons li i {
   background-image: url(../assets/images/asset-3.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.iconNav {
+  background-color: #215a6d;
+}
+.iconNav .wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 60%;
+  margin: 0 auto;
 }

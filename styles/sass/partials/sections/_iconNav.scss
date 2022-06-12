@@ -1,0 +1,15 @@
+.iconNav {
+  background-color: $primaryBGColour;
+
+  .wrapper {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      max-width: 60%;
+      margin: 0 auto;
+
+      li {
+      }
+    }
+  }
+}
