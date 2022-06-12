@@ -541,3 +541,26 @@ header .socialIcons li i {
 .iconNav .wrapper ul a i {
   font-size: 2rem;
 }
+
+.aboutMe {
+  background-color: #f6f6f6;
+}
+.aboutMe .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.aboutMe .wrapper .imgContainer {
+  min-width: 25%;
+}
+.aboutMe .wrapper .infoContainer {
+  padding-left: 30px;
+}
+.aboutMe .wrapper .infoContainer .primaryHeading {
+  margin-top: 0;
+  text-align: left;
+}
+.aboutMe .wrapper .infoContainer p {
+  text-align: left;
+  margin-bottom: 30px;
+}

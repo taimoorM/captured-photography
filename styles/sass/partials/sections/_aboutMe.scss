@@ -1,0 +1,25 @@
+.aboutMe {
+  background-color: $secondaryColour;
+
+  .wrapper {
+    display: flex;
+
+    .imgContainer {
+      min-width: 25%;
+    }
+
+    .infoContainer {
+      padding-left: 30px;
+
+      .primaryHeading {
+        margin-top: 0;
+        text-align: left;
+      }
+
+      p {
+        text-align: left;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
