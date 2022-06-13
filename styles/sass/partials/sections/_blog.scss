@@ -36,9 +36,6 @@
       .leftColumn {
         padding-left: 50px;
       }
-
-      .rightColumn {
-      }
     }
   }
 }
@@ -50,6 +47,10 @@
       .column {
         width: 100%;
         min-height: 50%;
+      }
+
+      p {
+        max-width: 400px;
       }
       .rowOne {
         flex-direction: column;
@@ -71,18 +72,19 @@
 @media (max-width: $breakpointMedium) {
   .blog {
     .wrapper {
-      .column {
+      p {
+        max-width: 100%;
       }
 
       .rowOne {
         .rightColumn {
-          padding: 50px 0;
+          padding: 50px 15px;
         }
       }
 
       .rowTwo {
         .leftColumn {
-          padding: 50px 0;
+          padding: 50px 15px;
         }
       }
     }

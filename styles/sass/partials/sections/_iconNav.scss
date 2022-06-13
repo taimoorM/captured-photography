@@ -29,3 +29,18 @@
     }
   }
 }
+
+//Media Queries
+@media (max-width: $breakpointMedium) {
+  .iconNav {
+    .wrapper {
+      ul {
+        flex-direction: column;
+
+        li:not(:last-child) {
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}

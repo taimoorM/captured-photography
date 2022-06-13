@@ -123,3 +123,15 @@ header {
     }
   }
 }
+
+@media (max-width: $breakpointMedium) {
+  header {
+    .wrapper {
+      .headingContainer {
+        h1 {
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+}
