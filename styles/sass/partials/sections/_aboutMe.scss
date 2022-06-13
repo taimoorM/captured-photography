@@ -23,3 +23,45 @@
     }
   }
 }
+
+//Media Queries
+@media (max-width: $breakpointLarge) {
+  .aboutMe {
+    .wrapper {
+      .imgContainer {
+        min-width: 40%;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpointMedium) {
+  .aboutMe {
+    .wrapper {
+      flex-direction: column;
+      align-items: center;
+      .imgContainer {
+        text-align: center;
+        min-width: auto;
+        max-width: 85%;
+      }
+
+      .infoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+
+        .primaryHeading {
+          margin: 40px 0 10px 0;
+          text-align: center;
+        }
+
+        p {
+          text-align: left;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}

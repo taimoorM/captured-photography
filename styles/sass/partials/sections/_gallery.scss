@@ -9,3 +9,23 @@
     }
   }
 }
+
+@media (max-width: $breakpointMedium) {
+  .gallery {
+    padding: 0;
+    .wrapper {
+      display: flex;
+      width: 100%;
+    }
+
+    .imgContainer {
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+
+      &:last-child {
+        display: none;
+      }
+    }
+  }
+}
