@@ -27,6 +27,10 @@ section {
   padding: 100px 0;
 }
 
+h2 {
+  margin: 0;
+}
+
 a {
   color: $primaryTextColour;
   text-decoration: none;
@@ -54,5 +58,13 @@ p {
   &:hover {
     color: $secondaryColour;
     background-color: $primaryBGColour;
+  }
+}
+
+//Media Queries
+
+@media (max-width: $breakpointMedium) {
+  section {
+    padding: 50px 0;
   }
 }

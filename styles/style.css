@@ -282,6 +282,10 @@ section {
   padding: 100px 0;
 }
 
+h2 {
+  margin: 0;
+}
+
 a {
   color: #0f0f0f;
   text-decoration: none;
@@ -322,6 +326,11 @@ p {
   background-color: #215a6d;
 }
 
+@media (max-width: 768px) {
+  section {
+    padding: 50px 0;
+  }
+}
 header {
   background-image: url(../assets/images/asset-1.jpg);
   background-size: cover;
@@ -485,6 +494,17 @@ header .socialIcons li i {
   margin-top: 5px;
 }
 
+@media (max-width: 1024px) {
+  .about .wrapper p {
+    max-width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .about .wrapper p {
+    max-width: 100%;
+    padding: 0;
+  }
+}
 .blog {
   padding: 0;
 }
