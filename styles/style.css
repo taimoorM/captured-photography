@@ -380,6 +380,9 @@ header .wrapper nav ul a {
 header .wrapper nav ul a:hover {
   color: #8dd7e9;
 }
+header .wrapper nav .navBars {
+  display: none;
+}
 header .headingContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -431,6 +434,34 @@ header .socialIcons li i {
   font-size: 1.1rem;
 }
 
+@media (max-width: 768px) {
+  header {
+    height: 70vh;
+  }
+  header .wrapper {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 20px 0;
+  }
+  header .wrapper nav ul {
+    display: none;
+  }
+  header .wrapper nav .navBars {
+    display: block;
+    font-size: 1.6rem;
+  }
+  header .wrapper .socialIcons {
+    display: none;
+  }
+  header .wrapper .headingContainer {
+    margin-top: 150px;
+  }
+  header .wrapper .headingContainer h1 {
+    font-size: 5rem;
+    margin-top: 30px;
+  }
+}
 .about .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
