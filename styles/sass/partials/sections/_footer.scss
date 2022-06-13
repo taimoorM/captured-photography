@@ -1,6 +1,63 @@
 .footer {
+  background-color: $primaryBGColour;
+  color: $secondaryColour;
+
   .wrapper {
     padding: 100px 0;
     display: flex;
+  }
+
+  .copyrightInfo {
+    margin: 0;
+    background-color: #094154;
+    padding: 10px 0;
+    font-weight: 700;
+  }
+
+  span {
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: $primaryFont;
+  }
+
+  .formContainer {
+    width: 50%;
+
+    fieldset {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      border: none;
+
+      legend {
+        margin-bottom: 10px;
+      }
+    }
+
+    input {
+      flex-grow: 1;
+      border: none;
+      padding: 15px 25px;
+    }
+
+    button {
+      border: none;
+    }
+  }
+
+  .linksContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-left: 80px;
+
+    .col {
+      width: calc(100% / 3);
+    }
+
+    p {
+      margin-top: 0;
+      text-align: left;
+    }
   }
 }

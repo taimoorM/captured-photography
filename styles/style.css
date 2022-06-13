@@ -574,9 +574,65 @@ header .socialIcons li i {
   margin-right: 40px;
 }
 
+.footer {
+  background-color: #215a6d;
+  color: #f6f6f6;
+}
 .footer .wrapper {
   padding: 100px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.footer .copyrightInfo {
+  margin: 0;
+  background-color: #094154;
+  padding: 10px 0;
+  font-weight: 700;
+}
+.footer span {
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.footer .formContainer {
+  width: 50%;
+}
+.footer .formContainer fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.footer .formContainer fieldset legend {
+  margin-bottom: 10px;
+}
+.footer .formContainer input {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: none;
+  padding: 15px 25px;
+}
+.footer .formContainer button {
+  border: none;
+}
+.footer .linksContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  padding-left: 80px;
+}
+.footer .linksContainer .col {
+  width: 33.3333333333%;
+}
+.footer .linksContainer p {
+  margin-top: 0;
+  text-align: left;
 }
