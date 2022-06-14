@@ -59,8 +59,14 @@
     justify-content: space-between;
     min-width: calc(50% - 80px);
 
-    .col:not(:last-child) {
-      margin-right: 20px;
+    .col {
+      &:not(:last-child) {
+        margin-right: 50px;
+      }
+
+      &:first-child {
+        margin-left: 20px;
+      }
     }
 
     a {
@@ -87,10 +93,20 @@
     .formContainer {
       width: 100%;
       margin-bottom: 30px;
+
+      input {
+        flex-grow: 0;
+        width: 60%;
+      }
     }
 
     .linksContainer {
       width: 100%;
+      justify-content: flex-start;
+
+      .col:first-child {
+        margin-left: 0px;
+      }
     }
   }
 }
@@ -126,6 +142,7 @@
       }
 
       input {
+        width: 100%;
         padding: 15px 0;
         text-align: center;
       }
