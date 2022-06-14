@@ -832,6 +832,10 @@ header .socialIcons li i {
   .footer .wrapper {
     padding: 50px 0;
   }
+  .footer .copyrightInfo {
+    padding: 5px 0;
+    font-weight: 400;
+  }
   .footer .formContainer {
     width: 100%;
     margin-bottom: 50px;
@@ -857,6 +861,7 @@ header .socialIcons li i {
     text-align: center;
   }
   .footer .formContainer input {
+    padding: 15px 0;
     text-align: center;
   }
   .footer .formContainer button {
