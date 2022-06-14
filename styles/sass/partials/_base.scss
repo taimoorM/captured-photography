@@ -3,6 +3,7 @@ html {
   font-size: $primaryFontSize;
   color: $primaryTextColour;
   line-height: 29px;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -27,10 +28,6 @@ section {
   padding: 100px 0;
 }
 
-h2 {
-  margin: 0;
-}
-
 a {
   color: $primaryTextColour;
   text-decoration: none;
@@ -41,11 +38,11 @@ p {
 }
 
 .primaryHeading {
-  @include heading(32px);
+  @include heading($primaryHeaderSize);
 }
 
 .secondaryHeading {
-  @include heading(29px);
+  @include heading($secondaryHeaderSize);
 }
 
 .btnPrimary {

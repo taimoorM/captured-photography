@@ -258,6 +258,7 @@ html {
   font-size: 18px;
   color: #0f0f0f;
   line-height: 29px;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -282,10 +283,6 @@ section {
   padding: 100px 0;
 }
 
-h2 {
-  margin: 0;
-}
-
 a {
   color: #0f0f0f;
   text-decoration: none;
@@ -307,7 +304,7 @@ p {
 .secondaryHeading {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 29px;
+  font-size: 24px;
   line-height: 26px;
   text-align: center;
   text-transform: uppercase;
@@ -536,9 +533,6 @@ header .socialIcons li i {
 }
 .blog .wrapper p {
   max-width: 300px;
-}
-.blog .wrapper h3 {
-  margin: 0;
 }
 .blog .wrapper .rowOne {
   display: -webkit-box;
