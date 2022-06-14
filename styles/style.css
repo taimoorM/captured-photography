@@ -537,6 +537,9 @@ header .socialIcons li i {
 .blog .wrapper p {
   max-width: 300px;
 }
+.blog .wrapper h3 {
+  margin: 0;
+}
 .blog .wrapper .rowOne {
   display: -webkit-box;
   display: -ms-flexbox;
