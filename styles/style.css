@@ -713,8 +713,16 @@ header .socialIcons li i {
   display: -ms-flexbox;
   display: flex;
 }
+.gallery .imgContainer {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 .gallery .imgContainer:not(:last-child) {
   margin-right: 40px;
+}
+.gallery .imgContainer:hover {
+  -webkit-transform: scale(110%);
+          transform: scale(110%);
 }
 
 @media (max-width: 768px) {
